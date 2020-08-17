@@ -1,0 +1,466 @@
+*{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box; 
+ font-family: 'Spectral', serif;
+ color:rgb(33, 38, 43);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(33, 38, 43);
+  overflow: hidden;
+}
+/* .yes{
+  color:white;
+} */
+.bName{
+  font-family: 'Satisfy', cursive;
+  font-size: 50px;
+  color:white;
+  padding: 5px;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgba(76, 150, 78, 0.822);
+  
+}
+
+//Heading text
+h1 {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  
+}
+
+
+//Home page cause
+
+//Subheading
+
+h2{
+  text-align: center;
+
+}
+
+//Homepage image
+.imgCSS{
+  filter: brightness(50%);
+  width: 100%; 
+}
+.imgContainer {
+  position: relative; 
+  text-align: center;
+  color: #D0CEBA;
+  
+}
+
+.center {
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  
+}
+
+.centerHome {
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(74, 145, 76, 0.37);
+  
+}
+
+
+/* for quiz page */
+
+.quizCSS{
+  background-color:rgba(74, 145, 76, 0.37);
+  padding:100px;
+
+}
+.quizHead{
+  
+  color: black;
+  padding: 15px;
+  
+  text-align: center;
+  
+}
+
+.topText{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.question{
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-color: rgba(74, 145, 76, 0.37);
+}
+
+.pileClothesImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+   width: 100%;
+   filter: brightness(60%);
+   height: 380px;
+   object-fit: cover;
+}
+.pollutionClothesImg{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+   width: 100%;
+   filter: brightness(60%);
+   height: 380px;
+   object-fit: cover;
+}
+.wearClothesImg{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+   width: 100%;
+   filter: brightness(60%);
+   height: 380px;
+   object-fit: cover;
+}
+button{
+  background-color: rgb(74, 145, 76);
+  color: white;
+  padding: 15px;
+  text-size: 15px;
+  margin: 20px;
+
+
+
+}
+
+button:hover{
+  background-color: white;
+  color: rgb(74, 145, 76);
+}
+
+.hungry{
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-size: 50px;
+  
+}
+.hungry2{
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+.quizBtm{
+  width: 50%;
+}
+
+.mSource{
+  background-color:rgba(74, 145, 76, 0.37);
+  padding: 20px;
+}
+//ACTION PAGe
+
+.actionHeading{
+  background-color:  rgba(74, 145, 76, 0.37);
+  padding: 60px;
+}
+.mapSection{
+  margin-top: 50px;
+  background-color: rgba(74, 145, 76, 0.37);
+}
+
+.actHeading{
+  background-color:  rgba(74, 145, 76, 0.37);
+  padding: 50px;
+
+}
+
+
+.actionSub{
+  text-align: center;
+    font-size: 70px;
+    color: white;
+    border-style: solid;
+    border-color: white;
+  
+   
+}
+
+.actDesc{
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+}
+.actImg{
+  width: 600px;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+  margin: 40px;
+  
+}
+.flexList{
+  display: flex;
+  
+}
+.list{
+  padding: 50px;
+}
+
+.mapFlex{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.mapText{
+  padding: 50px;
+  color: white;
+  
+}
+
+.thrift{
+  font-size: 50px;
+}
+
+.mapPos{
+  width: 50%;
+}
+
+.mapHeading{
+  text-size: 70px;
+  color:  rgb(74, 145, 76);
+  padding:20px;
+  border-color:white;
+}
+
+.brandHeading{
+  font-size: 50px;
+  padding: 50px;
+  color: rgb(74, 145, 76);
+  text-align: center;
+  
+}
+.brandImg{
+  width: 600px;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.flexBrand{
+  display: flex;
+}
+
+.listBrand{
+  margin-right: 40px;
+
+}
+
+.brandTxt{
+  font-size: 40px;
+}
+
+.thriftCSS{
+  padding: 40px;
+  border-style: solid;
+  margin: 20px;
+  border-color: rgba(74, 145, 76, 0.37);
+}
+
+.empWord{
+  color:  rgb(74, 145, 76);
+}
+
+.homePage{
+  
+  background-color:  rgba(74, 145, 76, 0.37);
+  
+  padding: 50px;
+}
+
+
+
+.definition{
+  padding: 60px;
+}
+
+.fact{
+  padding: 80px;
+  background-color: rgba(74, 145, 76, 0.37);
+
+}
+
+.textFact{
+  font-size: 30px;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  padding: 60px;
+  
+}
+
+.firstInfo{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.textDef{
+  font-size: 30px;
+  text-align: left;
+}
+
+.textSize{
+  font-size: 50px;
+}
+
+.textSize2{
+  font-size: 40px;
+}
+
+.extraCSS{
+  margin-top: 10px;
+  padding: 30px;
+  
+  
+
+
+}
+
+.extraContainter{
+    margin-top: 30px;
+}
+
+.extraImg{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.extraText{
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* //about page// */
+
+
+.aboutTop{
+  display:flex;
+  flex-direction:row;
+}
+.aboutBottom{
+  display:flex;
+  flex-direction:row;
+}
+.aboutOne{
+  padding: 50px;
+  background-color: rgba(74, 145, 76, 0.37);
+  border-style: solid;
+  border-color: white;
+  width: 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+  
+}
+.aboutTwo{
+  padding: 50px;
+  background-color: rgba(74, 145, 76, 0.37);
+  border-style: solid;
+  border-color: white;
+
+  width: 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.abtImg{
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.abtImgBottom{
+
+}
+
+
+.abtHeading{
+  text-align: center;
+  
+  font-size: 70px;
+  color: white;
+  border-style: solid;
+  border-color: white;
+
+
+}
+
+.abtText{
+  font-size: 20px;
+}
+
+.abtSub{
+  text-align: center;
+}
+.headingCount{
+  background-color:  rgba(74, 145, 76, 0.37);
+  padding: 50px;
+
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <div class="topnav">
+       <a class="active" href="quiz.html">Quiz</a>
+       <a href="action.html">Take Action</a>
+       <a href="about.html">About</a>
+       <a href="index.html">Home</a>
+       <h1 class="bName">EcoStyle</h1>
+    </div>
+
+    <script src="quiz.js"></script>
+    <div class = "quizCSS ">
+     
+      <h2 class = "topText"> <span class = "empWord"> Test Your Knowledge! </span> <br> Take this quick quiz to learn more about the effects unethical fashion has on the world. <br> <span class = "empWord">You may be surprised by some of them!</span> </h2>
+      </div>
+    <div>
+      <section class = "imgContainer ">
+      
+       <img class= "pileClothesImg" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/49F7/production/_102753981_hm_soex0372.jpg">
+       <h2 class = "center">How many pieces of clothing are made per year?</h2>
+       </section>
+      <br/>
+      <div class="question">
+        <div class="answer-choice">
+          <button onclick = "q1a1()">50 billion</button>
+        </div>
+
+      
+        <div class="answer-choice">
+                <button onclick = "q1a2()">177 billion</button>
+                </div>
+        <div class="answer-choice ">
+            <button onclick = "q1a3()">150 billion</button>
+          </div>
+          <div class="answer-choice">
+            <button onclick = "q1a4()">97 billion</button>
+          </div>
+   
+      </div>
+      
+      <br/>
+     <h2 id= "madePerYear"></h2>
+     
+     <br/>
+     <section class = "imgContainer">
+      
+       <img class= "pollutionClothesImg" src="https://media.image.ie/uploads/2019/02/15110142/ayotunde-oguntoyinbo-773465-unsplash-1024x657.jpg">
+       <h2 class = "center">Where does the fast fashion industry rank in polluting the planet?</h2>
+       
+       </section>
+      <br/>
+      <div class="question">
+        <div class="answer-choice">
+          <button onclick = "q2a1()">Fifth Highest</button>
+        </div>
+       <div class="answer-choice">
+              <button onclick = "q2a2()">Third Highest</button>
+              </div>
+       <div class="answer-choice">
+          <button onclick = "q2a3()">Seventh Highest</button>
+        </div>
+        <div class="answer-choice">
+          <button onclick = "q2a4()">Fourth Highest</button>
+        </div>
+      </div>
+      <br/>
+    <h2 id= "pollution"></h2>
+     <br/>
+
+     <section class = "imgContainer">
+      
+       <img class= "wearClothesImg" src="https://www.scandinaviastandard.com/wp-content/uploads/2019/10/The-Ultimate-Guide-to-Sustainably-Caring-For-Your-Clothes-_-Scandinavia-Standard-2-624x390.jpg">
+       <h2 class = "center">On average how many times are garments worn before being thrown away?</h2>
+
+       </section>
+      <br/>
+      <div class="question">
+        <div class="answer-choice">
+          <button onclick = "q3a1()">7 times</button>
+        </div>
+       <div class="answer-choice">
+              <button onclick = "q3a2()">20 times</button>
+              </div>
+       <div class="answer-choice">
+          <button onclick = "q3a3()">5 times</button>
+        </div>
+        <div class="answer-choice">
+          <button onclick = "q3a4()">15 times</button>
+        </div>
+      </div>
+      <br/>
+      <h2 id= "trash"></h2>
+     <br/>
+    
+     <h2 class = "hungry"> <span class = "empWord" >Shocking, right? </span> </h2> <br> <h2 class = "hungry2" > Check out this quiz that grades your clothes and how much they contribute to pollution: <br><button class = "quizBtm" ><a href="https://interactive.pri.org/2017/fair-fashion-quiz/index.html"target="_blank">Fair Fashion Quiz</a></button>
+     </h2>
+     <div class="mSource">
+     <h2>Sources:</h2>
+     </br>
+    <p class="qSource">Question 1: Conca, James. “Making Climate Change Fashionable - The Garment Industry Takes On Global Warming.” Forbes, Forbes Magazine, 3 Dec. 2015 <a href="http://www.forbes.com/sites/jamesconca/2015/12/03/making-climate-change-fashionable-the-garment-industry-takes-on-global-warming/#2d834aad79e4"target="_blank">www.forbes.com/sites/jamesconca/2015/12/03/making-climate-change-fashionable-the-garment-industry-takes-on-global-warming/#2d834aad79e4.</a></p>
+    </br>
+   <p class="qSource">Question 2: Mag, Bossier. “Clean, Green, Cute: Why Sustainable Fashion Is the Future.” Bossier Magazine, Bossier Magazine, 27 Nov. 2017, <a href= "http://www.bossiermag.com/blog/2017/11/26/clean-green-cute-why-sustainable-fashion-is-the-future"target="_blank"> www.bossiermag.com/blog/2017/11/26/clean-green-cute-why-sustainable-fashion-is-the-future.</a></p>
+   </br>
+   <p class="qSource">Question 3: Thomas, Dana. “The High Price of Fast Fashion.” The Wall Street Journal, Dow Jones &amp; Company, 29 Aug. 2019, <a href="http://www.wsj.com/articles/the-high-price-of-fast-fashion-11567096637#:~:text=In%202018%2C%20that%20averaged%2068,by%20the%20British%20charity%20Barnado's"target="_blank">www.wsj.com/articles/the-high-price-of-fast-fashion-11567096637#:~:text=In%202018%2C%20that%20averaged%2068,by%20the%20British%20charity%20Barnado's.</a></p>
+   </div>
+  </body>
+</html>
+
